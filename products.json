@@ -1,0 +1,62 @@
+{
+    "items":[
+        {
+            "sys": {"id": "1"},
+            "fields":{
+            "title":"Smart Bulbs",
+            "price": 1000,
+            "image":{"fields":{"file":{"url":"images/smartbulb.jpg"}}}
+                    }        
+                },
+                {
+                    "sys": {"id": "2"},
+                    "fields":{
+                    "title":"Wireless Charger",
+                    "price": 1000,
+                    "image":{"fields":{"file":{"url":"images/smartbulb.jpg"}}}
+                    } 
+                },{
+                    "sys": {"id": "3"},
+                    "fields":{
+                    "title":"LED Speaker",
+                    "price": 2000,
+                    "image":{"fields":{"file":{"url":"images/smartbulb.jpg"}}}
+                    } 
+                },{
+                    "sys": {"id": "4"},
+                    "fields":{
+                    "title":"Solar Panels",
+                    "price": 50000,
+                    "image":{"fields":{"file":{"url":"images/smartbulb.jpg"}}}
+                    } 
+                },{
+                    "sys": {"id": "5"},
+                    "fields":{
+                    "title":"Energy Management Systems",
+                    "price": 100000,
+                    "image":{"fields":{"file":{"url":"images/smartbulb.jpg"}}}
+                    } 
+                },{
+                    "sys": {"id": "6"},
+                    "fields":{
+                    "title":"Smart Switches",
+                    "price": 2000,
+                    "image":{"fields":{"file":{"url":"images/smartbulb.jpg"}}}
+                    } 
+                },{
+                    "sys": {"id": "7"},
+                    "fields":{
+                    "title":"Smart Sockets",
+                    "price": 1000,
+                    "image":{"fields":{"file":{"url":"images/smartbulb.jpg"}}}
+                    } 
+                },{
+                    "sys": {"id": "8"},
+                    "fields":{
+                    "title":"Smart Gas Member",
+                    "price": 1000,
+                    "image":{"fields":{"file":{"url":"images/smartbulb.jpg"}}}
+                    } 
+                }
+    ]
+}
