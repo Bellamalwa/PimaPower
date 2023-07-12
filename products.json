@@ -57,6 +57,6 @@
                     "price": 1000,
                     "image":{"fields":{"file":{"url":"images/smartbulb.jpg"}}}
                     } 
-                }
+                } 
     ]
 }

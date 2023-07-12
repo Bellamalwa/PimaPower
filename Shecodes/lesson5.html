@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRANDING</title>
+    <style>
+        body{
+            background-color: #899499;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: aqua;
+        }
+
+        h1 {
+            text-align: center;
+            
+            color: purple;
+            text-transform: uppercase;
+        
+        }
+
+        h2 {
+             text-align: center;
+            font-size: 30px;
+            border-radius: 30px;
+            padding: 20px;
+            border: 3px solid #3C3C3C;
+            margin: 20px auto 0 auto;
+            display: block;
+            width: 300px;
+            background: #FF23FF;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 50%;
+            border-radius: 10px;
+            width: 800px;
+        }
+        .first-image {
+            border: 2px solid #581845;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+            width: 500px;
+        }
+
+        p {
+            text-align: left;
+            line-height: 1.5;
+            font-size: 1rem;
+            margin: 20px 0 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, sans-serif;
+        }
+
+        ul {
+            font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, sans-serif;
+            color:#581845 ;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        button {
+            display: block;
+            margin: auto;
+            margin: 20px auto;
+            background: #B90BEB;
+            color: aliceblue;
+            font-size: 18px;
+            padding: 15px 20px;
+            border-radius: 6px;
+            box-shadow: 5px 5px 10px rgba(0 0 0 0.3);
+            transition: all zooms ease-in-out;
+        }
+        button:hover {
+            opacity: 0.9;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <!-- The container -->
+        <h1>
+            <img src="https://t3.ftcdn.net/jpg/06/16/93/14/240_F_616931461_a6l8jmVm9TUJE72vtLRK9ybgDnJ9Lg3R.jpg" alt="first-image"><br>
+             chear's branding & design
+        </h1>
+        <h2>
+            About Us
+        </h2>
+        <div>
+            <p>
+                We pride ourselves in our ability to handle diverse types of services. Our brand has the
+                capacity to handle both large Scale and Small Scale amount of Print and branding works.
+                Our team consists of highly skilled personnel in the field of media, audio and visual production,
+                production units, unskilled manpower, administration, logistics, and many more.
+                Our team works in collaboration and perfection to ensure timely, quality, and pocket value
+                work is achieved.
+                We specialize in the following;
+                <ul>
+                    <li>
+                        Graphic Design.
+                    </li>
+                    <li>
+                        Fabric printing and stitching.
+                    </li>
+                    <li>
+                        Corporate and individual gift items.
+                    </li>
+                    <li>
+                        Indoor and outdoor branding.
+                    </li>
+                </ul>
+            </p>
+            
+            <img src="https://media.istockphoto.com/id/971373744/photo/brand-business-concept-with-colorful-wooden-blocks.jpg?s=612x612&w=0&k=20&c=_HJIH4lrkG8whGwCSylPIeSYsAy2lOQm0os6YMTDWfE=" alt="OurBrand">
+            
+            <a href="https://en.wikipedia.org/wiki/Marketing_strategy"></a>
+            
+            <h3>
+                20% OFF ON <br> ALL JULY ORDERS !
+            </h3>
+            <h4>
+              
+            </h4>
+        </div>
+        <button id="getQuoteButton">
+            GET QUOTE
+        </button>
+        <hr />
+        <p>
+            
+                Site was built by Lilian Wakini
+            
+            <script>
+                function handleButton() {
+                    let quote = prompt("Do you want a quotation?");
+                    let name = prompt("What is your first name?");
+                    let email = prompt("What is your email address?");
+            
+                    let h4 = document.querySelector("h4");
+                    if (quote === "yes") {
+                        h4.innerHTML = "🙂<br />Thank you, " + name + ". The quotation has been sent to " + email;
+                    } else {
+                        h4.innerHTML = "😟<br />Thank you, " + name + ". Check our website for the services we offer.";
+                    }
+                }
+            
+                let getQuoteButton = document.getElementById("getQuoteButton");
+                getQuoteButton.addEventListener("click", handleButton);
+            </script>
+        </div>
+    </body>
+</html>
